@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio Project - Siri Chat
+
+![Siri](https://github.com/ilgarcia/Portfolio-SiriChat/assets/60369262/1f1d257a-3148-4f2b-82e7-0ea7d9fe840b)
+
+## Description
+
+**This is a project for educational purpose cloning the Siri application.**
+
+did this project replicating the Apple Siri aplication to learn how to implement the Microsoft Azure OpenAI and Whisper Speech Recognition AI.
+
+## Technologies Used
+
+- Next 14
+- Typescript
+- Microsoft Azure
+- OpenAI
+- Whisper Speech Recognition AI
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   ```
+   
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   cd portfolio
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Create account Azure**
 
-## Learn More
+Link to create account ([Link](https://azure.microsoft.com/)).
+   
+> Obs.: To use openAI you need fill this [form](https://azure.microsoft.com/pt-pt/products/ai-services/openai-service/) to request permission.  
 
-To learn more about Next.js, take a look at the following resources:
+4. **.env.local file variables**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - AZURE_API_KEY
+  - AZURE_ENDPOINT
+  - AZURE_DEPLOYMENT_NAME
+  - AZURE_DEPLOYMENT_COMPLETIONS_NAME
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Run the development server:**
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*The app will be accessible with your browser at [http://localhost:3000](http://localhost:3000).*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment
+
+1. **Clone the repository:**
+
+   ```bash
+   npm run build
+   ```
+   
+3. **Deploy the contents of the build directory to your hosting platform of choice.**
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
